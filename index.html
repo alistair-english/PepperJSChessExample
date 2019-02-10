@@ -1,0 +1,38 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- JQuery, Popper, Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    
+    <!-- chess.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.2/chess.js"></script>
+
+    <!-- Chessboard JS -->
+    <script src="js/chessboard/json3.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/chessboard-0.3.0.min.css">
+    <script src="js/chessboard/chessboard-0.3.0.min.js"></script>
+
+    <!-- PepperJS -->
+    <script src="js/pepper/pepperTestEnv.js"></script> <!-- For testing without a robot - emulates Pepper functionalty in the console. Comment out when running on robot. -->
+    <script src="js/pepper/pepper.js"></script>
+
+    <!-- Page Script -->
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div class="container h-100 w-100 d-flex align-items-center">
+        <div class="jumbotron jumbotron-fluid h-75 w-100 d-flex align-items-center">
+            <!-- Chessboard -->
+            <div id="board" class="mx-auto w-50"></div>
+        </div>
+    </div>
+</body>
+</html>
